@@ -7,6 +7,7 @@ body {
     color: hsl(0, 0%, 100%);
     font-family: Outfit, 'Times New Roman', Times, serif;
     font-weight: 300;
+    padding: 100px;
 }
 
 P {
@@ -15,18 +16,18 @@ P {
 
 .main {
     background-color: hsl(216, 50%, 16%);
-    width: 50%;
+    width: 24%;
     margin: auto;
     border-radius: 20px;
     padding: 20px 10px;
 }
+
 .equilibrum {
     width: 90%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
-
 }
 
 .equilibrum:hover {
@@ -35,8 +36,12 @@ P {
 }
 
 h3 {
-    color: hsl(178, 100%, 50%);
     font-weight: 600;
+}
+
+h3:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
 
 hr {
@@ -47,10 +52,19 @@ hr {
     float: right;
     position: relative;
 }
+
 .quantity {
     color: hsl(178, 100%, 50%);
     font-weight: 400;
 }
-.name {
+
+.name:hover {
     color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.pic {
+    width: 10%;
+    border: 1px solid white;
+    border-radius: 50%;
 }

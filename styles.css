@@ -10,15 +10,15 @@ body {
     padding: 100px;
 }
 
-P {
+p {
     font-size: 18px;
 }
 
 .main {
     background-color: hsl(216, 50%, 16%);
-    width: 24%;
+    width: 20vw;
     margin: auto;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 20px 10px;
 }
 
@@ -27,7 +27,7 @@ P {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .equilibrum:hover {
@@ -67,4 +67,21 @@ hr {
     width: 10%;
     border: 1px solid white;
     border-radius: 50%;
+    float: left;
+}
+
+.last {
+    overflow: auto; 
+    padding: 5px 3px;
+}
+
+@media screen and (max-width:800px) and (min-width:280px) {
+    .main {
+        width: 90vw;
+        margin: auto;
+    }
+    
+    body {
+        padding: 8vh 3vw;
+    }
 }
